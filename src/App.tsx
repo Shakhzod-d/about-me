@@ -4,6 +4,7 @@ import HomePage from './pages/homePage/HomePage'
 import AboutPage from './pages/aboutPage/AboutPage'
 import WorksPage from './pages/worksPage/WorksPage'
 import ContactPage from './pages/contactPage/ContactPage'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <WorksPage></WorksPage>
         <ContactPage></ContactPage>
       </main>
+      <Footer></Footer>
     </>
   )
 }
