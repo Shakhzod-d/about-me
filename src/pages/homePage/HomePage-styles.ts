@@ -5,7 +5,6 @@ import bgBoyBottom from '../../assets/homePage/bg-boy-bottom.png';
 import bgNext from '../../assets/homePage/bg-next.png'
 
 export const Home = styled.section`
-    /* height: 100vh; */
 `
 
 export const HomeInner = styled.div`
@@ -15,6 +14,10 @@ export const HomeInner = styled.div`
     display: flex;
     justify-content: space-between;
     padding-bottom: 64px;
+    @media (max-width: 1143px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 `
 
 export const HomeLeft = styled.div`

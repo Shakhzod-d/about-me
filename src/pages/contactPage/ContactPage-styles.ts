@@ -18,6 +18,10 @@ export const ContactInner = styled.div`
     background-image: url(${bgKeyboard}), url(${bgMessage});
     background-repeat: no-repeat, no-repeat;
     background-position: 66% 7%, 92% 83%;
+    flex-wrap: wrap;
+    @media (max-width: 1228px) {
+        justify-content: center;
+    }
 `
 export const ContactLeft = styled.div`
     width: 600px;
@@ -27,6 +31,9 @@ export const ContactLeft = styled.div`
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 220px 92%, 205px 100%, 20px 230px;
     margin-bottom: 258px;
+    @media (max-width: 1228px) {
+        margin-bottom: 50px;
+    }
 `
 
 
@@ -42,6 +49,10 @@ export const Title = styled.div`
 export const Form = styled.form`
     margin-top: 258px;
     width: 600px;
+    @media (max-width: 1228px) {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
 `
 
 export const Input = styled.input`

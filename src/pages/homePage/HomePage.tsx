@@ -13,7 +13,7 @@ const HomePage = () => {
                 <HomeLeft>
                     <Title
                         style={{
-                            width: "586px",
+                            maxWidth: "586px",
                             fontSize: "96px",
                             lineHeight: "70%",
                             fontWeight: "700",

@@ -17,6 +17,10 @@ export const AboutInner = styled.div`
     background-image: url(${bgMusic}), url(${bgLight}), url(${bgNext});
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0 15%, 30% 32%, 15% 85%;
+    @media (max-width: 973px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 `
 
 export const Line = styled.div`

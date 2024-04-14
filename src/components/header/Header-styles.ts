@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header1 = styled.header`
-    border: 1px solid rgba(238, 238, 238, 0.1);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 
 `
 

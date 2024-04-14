@@ -11,6 +11,11 @@ export const WorksInner = styled.div`
     max-width: 1248px;
     padding-top: 236px;
     padding-bottom: 270px;
+    @media (max-width: 833px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 
@@ -26,9 +31,10 @@ export const Title = styled.div`
 
 export const WorkCards = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap: 70px;
 `
 export const WorkCard = styled.div`
     width: 368px;
