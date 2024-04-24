@@ -4,9 +4,9 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import { message, Space } from 'antd';
 
-const serviceId: string = 'service_7qosrul';
-const templateId: string = 'template_z47bssf';
-const publicKey: string = 'vQqCZPHbS2V__yZL0'
+const serviceId: string = 'service_y85wedo';
+const templateId: string = 'template_gm7b7gi';
+const publicKey: string = '-9k88_fRKmmnwFUIg'
 
 
 interface FormData {
