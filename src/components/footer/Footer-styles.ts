@@ -15,13 +15,9 @@ gap: 24px;
     li{
         list-style: none;
         font-size: 18px;
-        color: #eee;
         cursor: pointer;
+        a{
+            color: #eee;
+        }
     }
-`
-
-export const FooterText = styled.p`
-    align-self: end;
-    font-size: 18px;
-    color: rgba(238, 238, 238, 0.75);
 `

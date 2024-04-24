@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const Header1 = styled.header`
     border-bottom: 1px solid rgba(238, 238, 238, 0.1);
-
+    /* position: fixed;
+    width: 100%;
+    background-color: #222831;
+    z-index: 9999; */
 `
 
 export const Logo = styled.div`
@@ -26,10 +29,12 @@ export const Nav = styled.nav`
         list-style: none;
         font-weight: 400;
         font-size: 18px;
-        color: #eee;
         gap: 48px;
         li{
             cursor: pointer;
+            a{
+                color: #eee;
+            }
         }
     }
 `

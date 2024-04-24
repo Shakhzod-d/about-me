@@ -6,10 +6,10 @@ import { Button, Space } from 'antd';
 
 
 const HomePage = () => {
-    const { Title, Text} = Typography;
+    const { Title, Text } = Typography;
     return (
-        <Home>
-            <HomeInner>
+        <Home >
+            <HomeInner id='home'>
                 <HomeLeft>
                     <Title
                         style={{
@@ -25,20 +25,20 @@ const HomePage = () => {
                         CREATIVE UI  {" "}
                         <Text style={{ fontSize: "96px", color: "#00adb5" }}>DESIGNER</Text>
                     </Title>
-                    <div style={{display: 'flex', flexDirection: 'column', gap: '243px'}}>
-                        <Space size={'large'} style={{display: 'flex'}}>
-                            <Button type="primary" shape="round" style={{ background: '#00adb5', boxShadow:'none', textShadow: ' 0 4px 4px 0 rgba(0, 0, 0, 0.5)', fontWeight: '700'}}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '243px' }}>
+                        <Space size={'large'} style={{ display: 'flex' }}>
+                            <Button type="primary" shape="round" style={{ background: '#00adb5', boxShadow: 'none', textShadow: ' 0 4px 4px 0 rgba(0, 0, 0, 0.5)', fontWeight: '700' }}>
                                 Hire me
                             </Button>
-                            <Button type="primary" shape="round" style={{background: 'rgba(57, 62, 70, 0.75)', boxShadow:'none'}}>
+                            <Button type="primary" shape="round" style={{ background: 'rgba(57, 62, 70, 0.75)', boxShadow: 'none' }}>
                                 Download CV <DownloadOutlined />
                             </Button>
                         </Space>
-                        <NextBtn><ArrowDownOutlined style={{fontSize: '50px', color: '#eeeeeebb'}}/></NextBtn>
+                        <NextBtn><ArrowDownOutlined style={{ fontSize: '50px', color: '#eeeeeebb' }} /></NextBtn>
                     </div>
 
                 </HomeLeft>
-                <HomeRight/>
+                <HomeRight />
             </HomeInner>
         </Home>
     );

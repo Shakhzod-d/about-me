@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Header1, HeaderInner, Logo, Nav } from './Header-styles'
 
 const Header = () => {
@@ -8,9 +8,9 @@ const Header = () => {
             <Logo>SaulDesign</Logo>
             <Nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Contact</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </Nav>
         </HeaderInner>
