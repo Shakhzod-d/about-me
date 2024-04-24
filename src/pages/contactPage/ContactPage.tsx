@@ -2,11 +2,11 @@ import { Contact, ContactInner, Title, ContactLeft, Input, Label, Form, TextArea
 import { SendOutlined } from '@ant-design/icons'
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
-import { message, Space } from 'antd';
+import { message} from 'antd';
 
 const serviceId: string = 'service_y85wedo';
 const templateId: string = 'template_gm7b7gi';
-const publicKey: string = '-9k88_fRKmmnwFUIg'
+const publicKey: string = '-9k88_fRKmmnwFUlg'
 
 
 interface FormData {
