@@ -27,11 +27,11 @@ const HomePage = () => {
                     </Title>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '243px' }}>
                         <Space size={'large'} style={{ display: 'flex' }}>
-                            <Button type="primary" shape="round" style={{ background: '#00adb5', boxShadow: 'none', textShadow: ' 0 4px 4px 0 rgba(0, 0, 0, 0.5)', fontWeight: '700' }}>
-                                Hire me
+                            <Button type="primary" shape="round" style={{ background: '#00adb5', boxShadow: 'none', textShadow: ' 0 4px 4px 0 rgba(0, 0, 0, 0.5)', fontWeight: '700', fontSize: '20px', height: '50px', width: '150px'}}>
+                                <a href="#contact">Hire me</a>
                             </Button>
-                            <Button type="primary" shape="round" style={{ background: 'rgba(57, 62, 70, 0.75)', boxShadow: 'none' }}>
-                                Download CV <DownloadOutlined />
+                            <Button type="primary" shape="round" style={{ background: 'rgba(57, 62, 70, 0.75)', boxShadow: 'none', fontWeight: '700', fontSize: '20px', height: '50px', width: '230px' }}>
+                                Download CV <DownloadOutlined/>
                             </Button>
                         </Space>
                         <NextBtn><ArrowDownOutlined style={{ fontSize: '50px', color: '#eeeeeebb' }} /></NextBtn>

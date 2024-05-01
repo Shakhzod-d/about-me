@@ -59,5 +59,8 @@ export const Text = styled.div`
     span{
         color: #eee;
         cursor: pointer;
+        &:hover{
+            color: #00adb5;
+        }
     }
 `
