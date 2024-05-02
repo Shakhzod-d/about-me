@@ -8,6 +8,7 @@ import bgLight from '../../assets/aboutPage/bg-light.png'
 
 export const About = styled.section`
     width: 100%;
+    scroll-snap-align: start;
 `
 export const AboutInner = styled.div`
     margin: 0 auto;
@@ -31,7 +32,6 @@ export const Line = styled.div`
 `
 
 export const AboutLeft = styled.div`
-    max-width: 389px;
     margin-top: 256px;
 `
 

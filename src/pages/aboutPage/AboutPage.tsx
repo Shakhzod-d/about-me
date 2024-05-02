@@ -14,7 +14,7 @@ const AboutPage = () => {
   return (
     <About >
       <AboutInner id='about'>
-        <AboutLeft style={{maxWidth: isText ? '100%' : '420px'}}>
+        <AboutLeft style={{maxWidth: isText ? '1248px' : '500px'}}>
           <Title>About <span>me</span></Title>
           <Text >{ isText ? text : cutText(text)}<span onClick={() => {setIsText(!isText)}}>{isText ? ' Read less' : ' Read more'}</span></Text>
         </AboutLeft>
